@@ -1,5 +1,5 @@
 {
-  "name": "es-site-react",
+  "name": "ec-site-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "lucide-react": "^0.408.0",
+    "react-router-dom": "^6.24.1"
   }
 }

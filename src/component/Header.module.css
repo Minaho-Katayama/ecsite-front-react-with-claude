@@ -1,0 +1,85 @@
+.nav {
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.navContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+.navLinks {
+  margin-left: 1.5rem;
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .navLinks {
+    display: flex;
+  }
+}
+
+.navLink {
+  color: #4b5563;
+  text-decoration: none;
+  font-size: 0.875rem;
+  padding: 0.5rem;
+}
+
+.navLink:hover {
+  color: #1f2937;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+}
+
+.navIcon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: #4b5563;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.navIcon:hover {
+  color: #1f2937;
+}
+
+.cartBadge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #ef4444;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
